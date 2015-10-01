@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ccc65">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/percentageSeekBar"
+        android:max="100"
+        android:background="#ff0d0b0e"
+        android:progressTint="#ff1aff22"
+        android:splitTrack="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/percent"
+        android:layout_gravity="center_horizontal"
+        android:textIsSelectable="true"
+        android:layout_marginTop="20dp"
+        android:textSize="50sp"
+        android:textColor="#ff04050c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/of"
+        android:id="@+id/ofText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff04050c"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:textColorHint="#ff04050c"
+        android:id="@+id/userInput"
+        android:layout_marginLeft="15pt"
+        android:layout_marginRight="15pt"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:hint="@string/enterAmount"
+        android:typeface="monospace"
+        android:maxLength="12" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton"
+        android:layout_marginTop="20pt"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:background="@drawable/googleplay" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30pt"
+        android:id="@+id/percentAmount"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:typeface="monospace"
+        android:textColor="#ff04050c"
+        android:textStyle="bold" />
+
+</LinearLayout>

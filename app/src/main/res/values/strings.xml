@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">UnitConverter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="of">Of</string>
+    <string name="enterAmount">Enter amount</string>
+
+    <string-array name="currencies">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>SEK</item>
+        <item>DKK</item>
+        <item>NOK</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Milliseconds</item>
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+    </string-array>
+
+    <string-array name="differendSpeed">
+        <item>Km/h</item>
+        <item>Knot</item>
+        <item>Mach</item>
+        <item>Meters/s</item>
+        <item>Miles/h</item>
+    </string-array>
+
+    <string-array name="differentWeightAndMass">
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Stone</item>
+        <item>Ounce</item>
+        <item>Pound</item>
+        <item>Troy ounce</item>
+        <item>Newton (Earth)</item>
+    </string-array>
+
+    <string-array name="differentDataSize">
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Kilobyte</item>
+        <item>Megabyte</item>
+        <item>Gigabyte</item>
+        <item>Terabyte</item>
+        <item>Petabyte</item>
+    </string-array>
+
+    <string-array name="differentHexBinaryDecimal">
+        <item>Decimal</item>
+        <item>Binary</item>
+        <item>Hexadecimal</item>
+    </string-array>
+
+    <string-array name="withoutHex">
+        <item>Decimal</item>
+        <item>Binary</item>
+    </string-array>
+
+    <string-array name="differentDistances">
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Decimeter</item>
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Mile</item>
+    </string-array>
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="differentArea">
+        <item>Hectare</item>
+        <item>Rood</item>
+        <item>Square Foot</item>
+        <item>Square Inch</item>
+        <item>Square Kilometer</item>
+        <item>Square Meter</item>
+    </string-array>
+
+    <string-array name="differentAngles">
+        <item>Degree</item>
+        <item>Radian</item>
+        <item>Full circle</item>
+    </string-array>
+
+</resources>
+

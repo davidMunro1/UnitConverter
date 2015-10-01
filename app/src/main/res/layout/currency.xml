@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ccc65">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/from"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff04050c" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromSpinner"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:maxLength="10"
+        android:id="@+id/userInput"
+
+        android:inputType="number"
+
+        android:hint="Enter amount"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:textColorHint="#ff04050c"
+        android:textColor="#ff04050c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/to"
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff04050c"
+        android:textStyle="bold"
+        android:textColorHint="#ff04050c" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toSpinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/conversionResult"
+        android:layout_marginTop="20pt"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textIsSelectable="true"
+        android:textColor="#ff04050c"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:text=""
+        android:id="@+id/units"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff04050c"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ImageButton
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:id="@+id/countryButton"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_euro"
+        android:background="#9ccc65" />
+
+</LinearLayout>
